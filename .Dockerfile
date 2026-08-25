@@ -16,4 +16,4 @@ EXPOSE 3000
 
 # ---- Start the Express server ----
 # Change "index.js" to your actual entry file (e.g. server.js, app.js)
-CMD ["node", "index.js"]
+CMD ["node", "./bin/www"]
