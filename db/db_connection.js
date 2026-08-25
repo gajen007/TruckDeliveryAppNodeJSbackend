@@ -3,10 +3,10 @@ const mysql = require('mysql2/promise');
 
 // Configure your database connection
 const dbConfig = {
-    host: '',
-    user: '',
-    password: '',
-    database: '',
+    host: process.env.DB_HOST,
+    user: process.env.DB_USER,
+    password: process.env.DB_PASSWORD,
+    database: process.env.DB_NAME,
     waitForConnections: true, // Whether the pool should wait for connections to become available
     connectionLimit: 10,     // Max number of connections in the pool
     queueLimit: 0            // No limit on the number of requests in the queue
