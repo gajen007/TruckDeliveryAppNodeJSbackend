@@ -6,7 +6,7 @@ const dbConfig = {
     host: '',
     user: '',
     password: '',
-    database: 'truckDelivery',
+    database: '',
     waitForConnections: true, // Whether the pool should wait for connections to become available
     connectionLimit: 10,     // Max number of connections in the pool
     queueLimit: 0            // No limit on the number of requests in the queue
